@@ -1,5 +1,15 @@
 # @shadcn/registry
 
+## 0.1.3
+
+### Patch Changes
+
+- [#12160](https://github.com/shadcn-ui/ui/pull/12160) [`6efecd8fe9aa167886fe2cc0c05c5623a5bb5670`](https://github.com/shadcn-ui/ui/commit/6efecd8fe9aa167886fe2cc0c05c5623a5bb5670) Thanks [@shadcn](https://github.com/shadcn)! - Edit the Next.js layout for font items without ts-morph, and skip it with a warning instead of writing a broken layout.
+
+- [#12146](https://github.com/shadcn-ui/ui/pull/12146) [`232d7e2c128d94d37a6dae74e3b0e1a8f08ff6e4`](https://github.com/shadcn-ui/ui/commit/232d7e2c128d94d37a6dae74e3b0e1a8f08ff6e4) Thanks [@shadcn](https://github.com/shadcn)! - Load ts-morph only for `addRegistryItems`, so the read-only API bundles about 6 MB smaller.
+
+- [#12177](https://github.com/shadcn-ui/ui/pull/12177) [`e8c3143b1cd191280befcd6c9538284bb43399a8`](https://github.com/shadcn-ui/ui/commit/e8c3143b1cd191280befcd6c9538284bb43399a8) Thanks [@shadcn](https://github.com/shadcn)! - Edit tailwind.config without ts-morph, and skip it with a warning instead of writing a broken config.
+
 ## 0.1.2
 
 ### Patch Changes
